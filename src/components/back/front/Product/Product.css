@@ -1,0 +1,166 @@
+.product {
+  position: relative;
+  margin: 20px auto;
+  min-height: 670px;
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #FFFFFF;
+  }
+  .product-card {
+    width:100%; 
+    height: 620px;
+    overflow: hidden;
+    border: 1px solid #FFFFFF;
+    padding: 16px 0;
+    margin: 40px 60px;
+    background-color: white;
+    display: flex;
+    
+    
+    
+ } 
+
+ .product-images-container {
+  width: 100px;
+  min-width: 100px;
+  background-color: #FFFFFF;
+  padding-top: 15px;
+  max-height:265px;
+  overflow: auto;
+  
+  
+ }
+ .product-images-container::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+ .product-images {
+  height: 80px; 
+  width: 79px;
+  padding: 5px;
+ }
+ .product-image-container {
+  width: 100%;
+  max-width: 610px;
+  background-color: #FFFFFF;
+  padding: 20px 0px;
+ }
+
+ .product-image {
+   
+  width: 100%;
+  max-width: 610px;
+  min-width: 200px;
+  max-height: 545px;
+  object-fit: fill;
+ }
+ .product-text-container {
+   display: flex;
+   justify-content: center;
+  width: 100%;
+  padding: 20px 20px;
+  background-color: #FFFFFF;
+  
+ }
+
+ .product-text {
+   
+  max-width: 292px;
+  width: 100%;
+  padding: 20px 20px;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  
+
+ }
+ .product-brand {
+font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 27px;
+ }
+
+ .product-name {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 27px;
+  padding-bottom: 20px;
+   }
+
+   .product-atributes-name{
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    padding-top: 20px;
+   }
+
+   .product-price {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 18px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+   }
+   .product-add-btn-container{
+     padding-bottom: 20px;
+   }
+   .product-add{
+     height: 52px;
+     width: 100%;
+     color: white;
+     background: #5ECE7B;
+     padding-top: 10px;
+     padding-bottom: 10px;
+   }
+   .buttons{
+     display: flex;
+     
+     
+     
+     
+   }
+   .btn{
+     margin-left: 5px;
+     border-style: solid;
+     border-color: black;
+     border-width: 1px;
+     width: 53px;
+     height: 45px;
+     
+    
+   }
+   .active{
+     background-color: black;
+     border-width: 5px;
+     color: white;
+    
+   }
+   .description{
+     
+     overflow: auto;
+     background-color: #FFFFFF;
+     max-height: 100%;
+   }
+
+   .description::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+  }
+
+.pd{
+  display: flex;
+  background-color: #FFFFFF;
+  width: 1200px;
+  
+ 
+}
+ 
